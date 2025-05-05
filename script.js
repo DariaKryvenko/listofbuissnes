@@ -7,10 +7,14 @@ add.addEventListener('click',function(){
     <div class="element">
     <input type="checkbox">
     <span>${text}</span>
-    <button>удалить</button>
+    <button class="delete-btn">удалить</button>
 </div>  
-
-
-// получить все кнопки удалить
-    `
+// получить все кнопки удалить    `
 })
+const deleteButtons = document.querySelectorAll('.delete-btn');
+
+deleteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    button.parentElement.remove();
+  });
+});
