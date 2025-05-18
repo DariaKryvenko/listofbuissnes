@@ -4,8 +4,8 @@
     height: 400px;
     border-radius: 20px; 
     padding: 20px; 
-    margin-top: 60px;
-    margin-left: 40px;
+    margin-top: 95px;
+    margin-left: 80px;
 }
 
 .text{
@@ -15,16 +15,40 @@
     border: 2px solid #D9D9D9;
     border-radius: 10px;
     background-color: #D9D9D9;
-    margin-bottom: 20px;
-    margin-left: 75px;
+    margin-right: 25px;
 }
 
 .save{
-    width: 20px; 
-    height: 20px; 
-    margin-top: 10px;
-    margin-right: 10px;
+    display: block;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 37px;
     background-color: #D9D9D9;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.del{
+    margin-right: 25px;
+    background-color: #D9D9D9;
+    /* width: 60px; 
+    height: 32px;  */
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url("Rectangle 3.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
 }
 
 .fas {
