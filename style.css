@@ -9,40 +9,36 @@
 }
 
 .text{
-    width: 60%; 
+    width: 100%; 
     padding: 15px;
-    font-size: 16px;
+    font-size: 24px;
     border: 2px solid #D9D9D9;
     border-radius: 10px;
     background-color: #D9D9D9;
-    margin-right: 25px;
+    margin-right: 5px;
 }
 
 .save{
     display: block;
     width: 50px; 
     height: 50px; 
-    margin-right: 37px;
+    margin-right: 5px;
     background-color: #D9D9D9;
 }
 
-.todo{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
 
-.del{
+
+.delete-btn{
     margin-right: 25px;
     background-color: #D9D9D9;
     /* width: 60px; 
     height: 32px;  */
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 body{
-    background-image: url("Rectangle 3.png");
+    
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -68,25 +64,49 @@ body{
    
 }
 
-img {
-    width: 124px;
-    height: 124px;
-}
+
 .header {
     display: flex;
     height: 154px;
     align-items:center;
 
 }
-.header input {
+.input {
     width: 35%;
   height: 25%;
     font-size: 24px;
     background-color: #D9D9D9;
-    color:#B7B7B7;
+    color:black;
     margin-left: 219px;
     border-radius: 5px;
     border: none;
     outline: none;
     padding-left: 26px;
 }
+
+.todo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    margin-top: 10px;
+
+}
+.element{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.add {
+    border-radius: 10px;
+
+}
+.decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    z-index: -1;
+  }
