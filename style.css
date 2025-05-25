@@ -110,6 +110,6 @@ body{
     height: 100vh;
     z-index: -1;
   }
-.active{
+.active span{
     text-decoration: line-through;
 }  
