@@ -112,4 +112,14 @@ body{
   }
 .active span{
     text-decoration: line-through;
-}  
+    
+} 
+.decor2 {
+    position: absolute;
+    top: 40px;
+    left: -55px;
+    width: 50vw;
+    height: 100vh;
+    z-index: -1;
+    transform:rotate(180deg) ;
+  } 
