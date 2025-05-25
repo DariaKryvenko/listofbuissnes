@@ -18,5 +18,12 @@ add.addEventListener('click', function() {
         btn.onclick = function() {
             btn.parentElement.remove();
         };
+
     });
+    let checkbox=container.querySelectorAll('.save')
+    checkbox.forEach(checkbox=>{
+        checkbox.addEventListener('click',function(){
+            checkbox.parentElement.classList.toggle('active')
+        })     
+    })
 });
